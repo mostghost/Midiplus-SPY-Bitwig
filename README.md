@@ -23,6 +23,10 @@ Since the signal that's being sent is an incremental counter, the first button p
 
 Pressing both buttons at once resets the midiplus spy to the set value, which messes with the count. The script will fix itself after pressing a button once or twice.
 
+* The buttons are latching.
+
+Since the midiplus spy only sends one signal when a button is first pressed, there's no way to do non-latching buttons.
+
 # Installation
 
 Put the .control.js script into your Controller Scripts folder. Look under the locations tab to find where it is.
